@@ -677,6 +677,11 @@ header .main-menu .navbar-collapse{
 header .main-menu .navbar-brand{
     padding: 26px 15px;
 }
+header .main-menu .navbar-brand>img {
+    margin-top: -20px;
+    max-width: 80%;
+    margin-left: 0px;
+    }
 header .main-menu .menu-search{
     display: inline-block;
     height: 40px;
@@ -1125,7 +1130,7 @@ header .menu_cart .check_out:hover{
     width: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.1);
 }
 .banner .banner-item .banner-content{
     padding: 250px 0px;
@@ -1461,7 +1466,7 @@ header .menu_cart .check_out:hover{
 }
 .banner-six .overlay{
     padding: 250px 0px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.1);
 }
 .banner-six .banner-content p{
     color: #fff;
@@ -1476,7 +1481,7 @@ header .menu_cart .check_out:hover{
     background-image: url(../../images/banner/banner_7.02.jpg);
 }
 .banner-seven .banner-item.slide-three{
-    background-image: url(../../images/banner/banner_7.03.jpg);
+    background-image: url(../../images/banner/banner_5.03.jpg);
 }
 .banner-seven .banner-item .banner-content{
     text-align: center;
@@ -1491,7 +1496,7 @@ header .menu_cart .check_out:hover{
     float: initial;
 }
 .banner-seven .banner-item .banner-content ul li a{
-    background-color: #6c5ebf;
+    background-color: #002147;
     color: #fff;
 }
 .banner-eight{
@@ -5018,7 +5023,7 @@ footer .footer-item .title{
     color: #fff;
 }
 .footer-about{
-   padding-top: 10px;
+   margin-top: -10px;
 }
 footer .footer-item .footer-post li{
     list-style: none;
@@ -5097,7 +5102,7 @@ footer .footer-item .photos li img{
 footer .footer-bottom{
     border-top: 1px solid #eeefee;
     background-color: #fafafa;
-    padding: 30px 0px;
+    padding: 10px 0px;
 }
 footer .footer-bottom p{
     font-weight: 700;
